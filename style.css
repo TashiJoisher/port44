@@ -1,0 +1,71 @@
+body {
+    font-family: 'Pattaya', sans-serif;
+
+    text-align: center;
+    padding-top: 800px;
+  margin-right: 300px;
+    margin-left:300px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#sects {
+    font-family: 'Pattaya', sans-serif;
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    background: linear-gradient(pink 0%, red 100%);
+}
+
+#image1 {
+    border-radius: 20px;
+    top: 40px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 50px;
+    height: 6px;
+    background-color: black;
+}
+
+.ulie{
+    font-family: 'Pattaya', sans-serif;
+ list-style:none;
+position: fixed;
+top:10px;
+left:400px;
+z-index:10;
+cursor: pointer;
+}
+
+.ille{
+    font-family: 'Pattaya', sans-serif;
+float: left;
+color: black;
+ padding-bottom:20px;
+padding-top:10px;
+padding-right:10px;
+padding-right: 10px;
+    font-size: 25px;
+    
+}
+.ille:hover{
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    background-color: red;
+    font-size:30px;
+}
+
+.w{
+background: lightcoral;
+}
